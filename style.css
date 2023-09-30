@@ -113,7 +113,7 @@ input {
 @media screen and (max-width:480px) {
     .container{
         width: 230px;
-        height: 325px;
+        height: 340px;
     }
     h1{
         font-size: 3rem;
