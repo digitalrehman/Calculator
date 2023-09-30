@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.container {
+    background: #010a10;
+    margin: 4% auto;
+    width: 250px;
+    border: 3px solid darkblue;
+    border-radius: 15px;
+    height: 355px;
+    box-shadow: 3px 3px 6px  black;
+    
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+h1{
+    font-size: 4rem;
+    color: snow;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 2px darkblue;
+    
+}
+input {
+    border-radius: 10px;
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid darkblue;
+    
+}
+
+.box {
+    margin-top: 15px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 15px 5px;
+    background: #010a10;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    box-shadow: 3px 3px 2px snow;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: snow;
+    font-weight: bold;
+    cursor: pointer;
+    flex-basis: 20%;
+    font-size: 25px;
+    height: 6vh;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background: snow;
+    color: black;
+}
+
+.btn17, .btn18, .btn19, .btn20, .btn4, .btn8, .btn12, .btn16{
+    font-size: 18px;
+    background-color: darkblue;
+    box-shadow: 3px 3px 2px snow;
+}
+.btn17:hover, .btn18:hover, .btn19:hover, .btn20:hover, .btn4:hover, .btn8:hover, .btn12:hover, .btn16:hover{
+    background-color: blue;
+    color: snow;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width: 250px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:480px) {
+    .container{
+        width: 230px;
+        height: 325px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+
+    
+
+  
